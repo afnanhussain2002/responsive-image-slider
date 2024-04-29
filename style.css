@@ -22,7 +22,12 @@ body{
     gap: 18px;
     font-size: 0;
     overflow: auto;
+    scrollbar-width: none;
     grid-template-columns: repeat(10,1fr);
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar{
+    display: none;
 }
 .slider-wrapper .image-list .image-item{
     width: 325px;
